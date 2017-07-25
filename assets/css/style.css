@@ -9,8 +9,7 @@ p {
 }
 h1, h2, h3, h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: bold;
-	color: #4aaaa5;h
+	color: #4aaaa5;
 }
 
 
@@ -24,23 +23,45 @@ h1, h2, h3, h4 {
 	margin: auto;
 }
 	#name {
-		background-color: #4aaaa5;
-	    float: left;
-	    padding: 40px;
-	    color: #white;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 30px;
+    margin-left: 10px;
 	}
 	#danielMuller {
 		color: white;
-		font-family: 'Georgia', Times, Times New Roman, serif;
 
 	}
 	#nav {
 		background-color: fff;
 		float: right;
-		width: 150px;
-		padding: 20px;
-		display: inline;	
+		padding: 30px;
+    	margin-right: 10px;	
 	}
+	#nav li {
+		display: inline;
+		margin-right: 20px;
+	}
+
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+
 
 #mainContent {
 	background-color: #ffffff;
@@ -71,19 +92,20 @@ h1, h2, h3, h4 {
 	.smLogo {
 		width: 50px;
 		float: left;
-		margin-right: 20px;
+		margin: 10px 20px;
 	}
 #footer {
 	background-color: #666666;
 	clear: both;
 	margin: auto;
-	height: 50px;
+	text-align: center;
+	padding: 20px;
 }
 #headshot {
 	width: 200px;
-	border: 1px solid #333;
-	float: left;
-	margin: 0 1em 1em 0;
+    border: 1px solid #dddddd;
+    float: left;
+    margin: 0 1em;
 
 }
 

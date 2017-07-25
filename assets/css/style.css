@@ -38,14 +38,14 @@ h1, h2, h3, h4 {
 		background-color: fff;
 		float: right;
 		width: 150px;
-		padding: 20px
+		padding: 20px;
 		display: inline;	
 	}
 
 #mainContent {
 	background-color: #ffffff;
-	background-image: url("assets/images/concrete-texture.png");
-    background-repeat: repeat-y;
+	background-image: url("../images/concrete-texture.png");
+    background-repeat: repeat-x;
 	overflow: auto;
 	clear: both;
 	width: 960px;
@@ -53,7 +53,7 @@ h1, h2, h3, h4 {
 	margin: auto;
 }
 	#aboutMe {
-		background-color: beige;
+		background-color: white;
 		overflow: auto;
 		width: 650px;
 		float: left;
@@ -61,12 +61,17 @@ h1, h2, h3, h4 {
 
 	}
 	#connect {
-		background-color: darkgray;
+		background-color: white;
 		overflow: auto;
 		width: 270px;
 		float: right;
 		margin: 10px;
+	}
 
+	.smLogo {
+		width: 50px;
+		float: left;
+		margin-right: 20px;
 	}
 #footer {
 	background-color: #666666;

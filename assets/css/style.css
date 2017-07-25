@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
@@ -9,55 +9,64 @@ p {
 }
 h1, h2, h3, h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #4aaaa5;h
 }
 
 
 #header {
 	background-color: #ffffff;
-	width: 100%;
+	width: 960px;
 	clear: both;
 	overflow: auto;
 	border-bottom: 2px;
-	border-color: darkgray;
+	border-color: #cccccc;
+	margin: auto;
 }
 	#name {
 		background-color: #4aaaa5;
 	    float: left;
-	    margin-left: 170px;
-	    text-align: center;
-	    padding: 20px;
+	    padding: 40px;
+	    color: #white;
+	}
+	#danielMuller {
+		color: white;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+
 	}
 	#nav {
 		background-color: fff;
-		float: left;
+		float: right;
 		width: 150px;
-		margin-left: 33%;
-		padding: 20px;
+		padding: 20px
+		display: inline;	
 	}
+
 #mainContent {
-	background-image: url("assets/images/concrete-texture.png");
 	background-color: #ffffff;
+	background-image: url("assets/images/concrete-texture.png");
+    background-repeat: repeat-y;
 	overflow: auto;
 	clear: both;
-	width: 100%;
+	width: 960px;
 	border-color: #dddddd;
-	padding: 20px;
+	margin: auto;
 }
 	#aboutMe {
 		background-color: beige;
 		overflow: auto;
 		width: 650px;
 		float: left;
-		margin-left: 150px;
-		padding: 20px;
+		margin: 10px;
+
 	}
 	#connect {
 		background-color: darkgray;
 		overflow: auto;
 		width: 270px;
 		float: right;
-		margin-right: 25%;
-		padding: 20px;
+		margin: 10px;
+
 	}
 #footer {
 	background-color: #666666;
@@ -67,5 +76,11 @@ h1, h2, h3, h4 {
 }
 #headshot {
 	width: 200px;
+	border: 1px solid #333;
+	float: left;
+	margin: 0 1em 1em 0;
+
 }
+
+
 

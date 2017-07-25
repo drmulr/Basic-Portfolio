@@ -6,23 +6,32 @@ body {
 }
 p {
 	color: #777777;
+
 }
 h1, h2, h3, h4 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
+	margin-left: 10px;
+}
+header {
+	width: 100%
+	margin: auto;
+	clear: both;
+	background-color: ffffff;
+	border: 2px;
+	border-color: #cccccc;
 }
 
 
-#header {
+
+#headerDiv {
 	background-color: #ffffff;
 	width: 960px;
 	clear: both;
 	overflow: auto;
-	border-bottom: 2px;
-	border-color: #cccccc;
 	margin: auto;
 }
-	#name {
+	#nameSquare {
     background-color: #4aaaa5;
     float: left;
     padding: 30px;
@@ -30,6 +39,7 @@ h1, h2, h3, h4 {
 	}
 	#danielMuller {
 		color: white;
+		letter-spacing: 3px;
 
 	}
 	#nav {
@@ -61,6 +71,13 @@ a:active {
     text-decoration: none;
 }
 
+#fullWrap {
+	background-image: url("../images/concrete-texture.png");
+    background-repeat: repeat-x;
+}
+
+
+/*Begin Main Content*/
 
 
 #mainContent {
@@ -78,15 +95,21 @@ a:active {
 		overflow: auto;
 		width: 650px;
 		float: left;
-		margin: 10px;
-
+		margin: 30px 10px 30px 10px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	p .bodyText {
+		padding-right:10px;
 	}
 	#connect {
 		background-color: white;
 		overflow: auto;
 		width: 270px;
 		float: right;
-		margin: 10px;
+		margin: 30px 10px 30px 10px;
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 
 	.smLogo {
@@ -100,6 +123,7 @@ a:active {
 	margin: auto;
 	text-align: center;
 	padding: 20px;
+	color: #ffffff;
 }
 #headshot {
 	width: 200px;
